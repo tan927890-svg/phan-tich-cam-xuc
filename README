@@ -1,0 +1,21 @@
+# Bước 1 : Cài thư viện
+
+pip install kivy kivymd textblob "googletrans==4.0.0rc1" httpx==0.13.3
+python -m textblob.download_corpora
+
+# B2 :
+
+chạy lệnh python main.py
+
+# B3 : chạy
+
+pip install flask flask-cors
+python server.py
+
+# Mở terminal 2 : chạy
+
+start index.html
+
+# B4 : cài thư viện
+
+pip install pyvi
